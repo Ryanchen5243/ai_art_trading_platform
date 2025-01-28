@@ -1,0 +1,125 @@
+/* General Page Container */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-background {
+    position: relative;
+    background: url('../LandingPage/wave_main_page.svg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    padding: 5px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+}
+
+/* Main Body Section */
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: left;
+}
+
+.content-box {
+    flex: 1;
+    min-height: 600px;
+    padding: 40px 140px;
+    box-sizing: border-box;
+    /* border:1px solid black; */
+}
+.finance-icon-background {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-width: 650px;
+    /* border: 1px solid black; */
+    transform: translateX(-138px) translateY(-45px);
+}
+
+.content-box h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+.content-box p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 20px;
+}
+/* General Button Styling */
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2C3E50; /* Elegant dark blue color */
+    color: white; 
+    font-size: 1.2rem; 
+    font-weight: 600; /* Slightly bold text */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px; /* Slightly rounded corners for a professional feel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: 2px solid transparent; /* Keeps button clean */
+}
+
+button:hover {
+    background-color: #34495E; /* Slightly lighter blue-gray on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    border-color: #BDC3C7; /* Light gray border on hover */
+}
+
+button:active {
+    background-color: #1A252F; /* Darker blue for the active state */
+    transform: translateY(0); /* Reset the lift effect on click */
+    box-shadow: none; /* Remove shadow on active state */
+    border-color: #BDC3C7; /* Subtle gray border when active */
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
