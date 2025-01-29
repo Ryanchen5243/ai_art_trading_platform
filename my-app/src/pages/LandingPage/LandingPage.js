@@ -5,10 +5,10 @@ export default function LandingPage() {
     return <div className="page-container">
         <div className="main-background">
             <header className="header">
-                <span className="logo">MemeWorks</span>
+                <span className="logo">ArtLedger</span>
                 <nav>
                     <ul>
-                        <li><a href="#">Markets</a></li>
+                        <li><a href="trade">Markets</a></li>
                         <li><a href="#">Learn</a></li>
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">Support</a></li>
@@ -17,8 +17,8 @@ export default function LandingPage() {
             </header>
             <main className="main-body">
                 <div className="content-box">
-                    <h2>Trade the Internet's Funniest Currency</h2>
-                    <p>Discover, buy, and sell the hottest meme coins in the game. It's fast, fun, and rewarding.</p>
+                    <h2>Trade the Internet's Most Innovative AI Art</h2>
+                    <p>Discover, buy, and sell unique AI-generated artwork. It's creative, exciting, and rewarding.</p>
                     <button>Get Started</button>
                 </div>
                 <div className="finance-icon-background"><FinanceIcon /></div>
