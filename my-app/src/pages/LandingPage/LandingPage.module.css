@@ -1,11 +1,11 @@
 /* General Page Container */
-.page-container {
+.pageContainer {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.main-background {
+.mainBackground {
     position: relative;
     background: url('../LandingPage/wave_main_page.svg') no-repeat center center;
     background-size: cover;
@@ -48,7 +48,7 @@
 }
 
 /* Main Body Section */
-.main-body {
+.mainBody {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,14 +56,14 @@
     text-align: left;
 }
 
-.content-box {
+.contentBox {
     flex: 1;
     min-height: 600px;
     padding: 40px 140px;
     box-sizing: border-box;
     /* border:1px solid black; */
 }
-.finance-icon-background {
+.financeIconBackground {
     flex: 1;
     display: flex;
     justify-content: left;
@@ -73,7 +73,7 @@
     transform: translateX(-138px) translateY(-45px);
 }
 
-.content-box h2 {
+.contentBox h2 {
     font-size: 3.5rem;
     font-weight: 800;
     line-height: 1.2;
@@ -81,7 +81,7 @@
     color: #1f2937;
 }
 
-.content-box p {
+.contentBox p {
     font-size: 1.25rem;
     line-height: 1.8;
     color: #4b5563;
