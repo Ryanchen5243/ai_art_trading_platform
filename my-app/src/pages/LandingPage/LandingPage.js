@@ -20,7 +20,7 @@ export default function LandingPage() {
                     <div className={styles.contentBox}>
                         <h2>Trade the Internet's Most Innovative AI Art</h2>
                         <p>Discover, buy, and sell unique AI-generated artwork. It's creative, exciting, and rewarding.</p>
-                        <button className={styles.button}>Get Started</button>
+                        <button className={styles.landingPageButton}>Get Started</button>
                     </div>
                     <div className={styles.financeIconBackground}><FinanceIcon /></div>
                 </main>
@@ -30,7 +30,7 @@ export default function LandingPage() {
                 <div className={styles.contentBox}>
                     <h2>Why Choose Us?</h2>
                     <p>We provide top-notch features that cater to your financial goals and needs.</p>
-                    <button className={styles.button}>Learn More</button>
+                    <button className={styles.landingPageButton}>Learn More</button>
                 </div>
             </section>
 

@@ -1,47 +1,66 @@
 .container {
     display: grid;
-    grid-template-rows: 60px 1fr 50px;
+    grid-template-rows: 50px 1fr 30px;
     height: 100vh;
-    background-color: #f8f9fa;
 }
 
-.header, .footer {
-    background-color: #343a40;
-    color: white;
+.tradingPageHeader {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    border-top: 1px solid black;
 }
 
 .main {
     display: grid;
     grid-template-columns: 250px 1fr 250px;
-    gap: 15px;
-    padding: 15px;
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
 
 .panel {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     min-height: 100px;
+    border: 1px solid black;
 }
 
 .content {
-    background: white;
+    border: 1px solid black;
+}
+
+/* settings modal */
+.settingsBackdropStyles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingsStyles {
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height:500px;
+    text-align: center;
 }
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {
