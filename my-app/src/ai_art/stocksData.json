@@ -1,0 +1,210 @@
+[
+    {
+      "ticker": "ALNX-001",
+      "name": "Alien Portrait",
+      "price": 112.45,
+      "change": 5.2,
+      "marketCap": "1.5M",
+      "rarity": "Epic",
+      "volume": 1520
+    },
+    {
+      "ticker": "FOX-X7",
+      "name": "Cyber Fox",
+      "price": 89.30,
+      "change": -3.1,
+      "marketCap": "970K",
+      "rarity": "Rare",
+      "volume": 1340
+    },
+    {
+      "ticker": "PNGN-03",
+      "name": "Mecha Penguin",
+      "price": 76.85,
+      "change": 2.7,
+      "marketCap": "860K",
+      "rarity": "Uncommon",
+      "volume": 980
+    },
+    {
+      "ticker": "BSHE-01",
+      "name": "Spectral Banshee",
+      "price": 134.20,
+      "change": 8.5,
+      "marketCap": "2.1M",
+      "rarity": "Epic",
+      "volume": 1780
+    },
+    {
+      "ticker": "GRF-TC",
+      "name": "Golden Griffin",
+      "price": 210.95,
+      "change": 12.3,
+      "marketCap": "3.8M",
+      "rarity": "Legendary",
+      "volume": 2450
+    },
+    {
+      "ticker": "ROBOT-X9",
+      "name": "AI Sentinel",
+      "price": 98.40,
+      "change": -6.8,
+      "marketCap": "1.2M",
+      "rarity": "Rare",
+      "volume": 890
+    },
+    {
+      "ticker": "BF-TT",
+      "name": "Big Foot Titan",
+      "price": 120.50,
+      "change": 4.7,
+      "marketCap": "1.6M",
+      "rarity": "Epic",
+      "volume": 1120
+    },
+    {
+      "ticker": "HYD-89",
+      "name": "Hydra Sovereign",
+      "price": 256.30,
+      "change": 15.6,
+      "marketCap": "4.5M",
+      "rarity": "Legendary",
+      "volume": 2750
+    },
+    {
+      "ticker": "SKLL-01",
+      "name": "Skull Phantom",
+      "price": 102.90,
+      "change": -5.3,
+      "marketCap": "1.1M",
+      "rarity": "Rare",
+      "volume": 890
+    },
+    {
+      "ticker": "BRD-11",
+      "name": "Steel Phoenix",
+      "price": 79.75,
+      "change": 1.2,
+      "marketCap": "950K",
+      "rarity": "Uncommon",
+      "volume": 1050
+    },
+    {
+      "ticker": "KRK-77",
+      "name": "Abyss Kraken",
+      "price": 199.99,
+      "change": 10.9,
+      "marketCap": "3.5M",
+      "rarity": "Legendary",
+      "volume": 2300
+    },
+    {
+      "ticker": "SOLD-42",
+      "name": "Cyber Soldier",
+      "price": 85.60,
+      "change": -2.1,
+      "marketCap": "920K",
+      "rarity": "Rare",
+      "volume": 990
+    },
+    {
+      "ticker": "CT-23",
+      "name": "Neon Cat",
+      "price": 72.15,
+      "change": 3.0,
+      "marketCap": "880K",
+      "rarity": "Uncommon",
+      "volume": 970
+    },
+    {
+      "ticker": "MNT-33",
+      "name": "Labyrinth Minotaur",
+      "price": 140.75,
+      "change": 6.4,
+      "marketCap": "2.2M",
+      "rarity": "Epic",
+      "volume": 1500
+    },
+    {
+      "ticker": "SPX-01",
+      "name": "Ancient Sphinx",
+      "price": 230.45,
+      "change": 13.7,
+      "marketCap": "4.0M",
+      "rarity": "Legendary",
+      "volume": 2600
+    },
+    {
+      "ticker": "CYC-77",
+      "name": "Titan Cyclops",
+      "price": 189.90,
+      "change": 9.2,
+      "marketCap": "3.1M",
+      "rarity": "Legendary",
+      "volume": 2150
+    },
+    {
+      "ticker": "OWL-X4",
+      "name": "Mystic Owl",
+      "price": 97.60,
+      "change": -4.5,
+      "marketCap": "1.3M",
+      "rarity": "Rare",
+      "volume": 910
+    },
+    {
+      "ticker": "UNIC-88",
+      "name": "Celestial Unicorn",
+      "price": 265.70,
+      "change": 18.2,
+      "marketCap": "4.8M",
+      "rarity": "Legendary",
+      "volume": 2850
+    },
+    {
+      "ticker": "DRGN-88",
+      "name": "Inferno Dragon",
+      "price": 278.90,
+      "change": 20.1,
+      "marketCap": "5.0M",
+      "rarity": "Legendary",
+      "volume": 3000
+    },
+    {
+      "ticker": "PND-06",
+      "name": "Cyber Panda",
+      "price": 83.40,
+      "change": -2.7,
+      "marketCap": "900K",
+      "rarity": "Rare",
+      "volume": 940
+    },
+    {
+      "ticker": "YET-56",
+      "name": "Frost Yeti",
+      "price": 143.25,
+      "change": 7.1,
+      "marketCap": "2.3M",
+      "rarity": "Epic",
+      "volume": 1570
+    },
+    {
+      "ticker": "FRY-99",
+      "name": "Ethereal Fairy",
+      "price": 154.80,
+      "change": 8.3,
+      "marketCap": "2.5M",
+      "rarity": "Epic",
+      "volume": 1650
+    },
+    {
+      "ticker": "PEG-90",
+      "name": "Skyborn Pegasus",
+      "price": 222.60,
+      "change": 12.9,
+      "marketCap": "3.9M",
+      "rarity": "Legendary",
+      "volume": 2500
+    }
+  ]
+  
