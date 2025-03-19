@@ -62,6 +62,85 @@
     text-align: center;
 }
 
+/* ===== Search Bar ===== */
+.searchBarContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 8px 15px;  /* Reduced padding */
+    width: 100%;
+    max-width: 400px;  /* Set a max-width for the search bar */
+    border: 1px solid #d1d5db;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.searchBar:hover {
+    border-color: #007bff;
+}
+
+.searchBar:focus-within {
+    border-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 91, 187, 0.3);
+}
+
+.searchIcon {
+    color: #6b7280;
+    margin-right: 8px;  /* Reduced margin-right */
+}
+
+.searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;  /* Slightly smaller font size */
+    color: #333;
+    font-weight: 500;
+}
+
+.searchInput::placeholder {
+    color: #9ca3af;
+    font-weight: 400;
+}
+
+.stockDropdown {
+    position: absolute;
+    top: 100%; /* Position below the search bar */
+    left: 50%; /* Align to the center horizontally */
+    transform: translateX(-50%); /* Shift it back by 50% of its width to center it */
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;  /* Make dropdown width match search bar */
+    max-width: 400px;  /* Set a max-width for dropdown */
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.stockItem {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    list-style: none;
+}
+
+.stockItem:hover {
+    background: #f0f0f0;
+}
+
 /* ===== Responsive Design ===== */
 @media (max-width: 1024px) {
     .main {
@@ -75,5 +154,11 @@
     }
     .sidebar {
         display: none;
+    }
+
+    /* Adjust the search bar for smaller screens */
+    .searchBar {
+        max-width: 100%;  /* Make it take up the full width on small screens */
+        padding: 8px 12px;  /* Smaller padding */
     }
 }
